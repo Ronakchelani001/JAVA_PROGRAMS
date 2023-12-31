@@ -1,0 +1,21 @@
+import java.util.*;
+public class PRIME_NUMBER{
+    public static void main(String args[])
+    {
+        int div=2;
+        Scanner sc= new Scanner(System.in);
+        n=sc.nextInt();
+        while(div>=n)
+        {
+            if(div%2==0){
+              System.out.println("prime number");
+            }
+            else{
+              System.out.println("not prime");
+            }
+            div++ 
+        }
+        
+
+    }
+}
